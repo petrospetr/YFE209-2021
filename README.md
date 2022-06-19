@@ -16,7 +16,7 @@
 model(x,y), hak_min(x,theta,n,wmin), hak(x,omega,theta,n), Mass(x,theta,n), S(omega,theta,n,wmin).<br />
 Για την λύση της Lane Emden χρησιμοποιήθηκε μέθοδος RK4(5) με την solve_ivp ή/και η odeint.<br />
 Χρησιμοποιήθηκε επίσης interpolation (interp1d της scipy.interpolate) και extrapolation για τα fill_values.<br />
-Για την επίλυση των ολοκληρωμάτων χρησιμοποιήθηκαν οι quad και simpson. Κύρια διαφορά τους εκτός της ακρίβειας είναι η ταχύτητα. 
+Για την επίλυση των ολοκληρωμάτων χρησιμοποιήθηκαν οι quad και simpson. Κύρια διαφορά τους, εκτός της ακρίβειας είναι η ταχύτητα. 
 Τα διαγράμματα έγιναν μέσω του pyplot του matplotlib. 
 <br />
 <br />
