@@ -19,7 +19,10 @@ model(x,y), hak_min(x,theta,n,wmin), hak(x,omega,theta,n), Mass(x,theta,n), S(om
 Χρησιμοποιήθηκε επίσης interpolation (interp1d της scipy.interpolate) και extrapolation για τα fill_values.
 Για την επίλυση των ολοκληρωμάτων χρησιμοποιήθηκαν οι quad και simpson. Κύρια διαφορά τους εκτός της ακρίβεια είναι η ταχύτητα. 
 Τα διαγράμματα έγιναν μέσω του pyplot του matplotlib. 
-Τα διαγράμματα που περιέχουν/βρήκαν τα προγράμματα είναι:
+
+Τα διαγράμματα που περιέχουν/βρήκαν τα προγράμματα είναι:\\
 .)τα 3 ζητούμενα figure 1, figure 2 και figure 5 του paper,
+
 .)το διάγραμα των λύσεων της Lane Emden για διάφορες τιμές του γ,
+
 .)τα Figure 3 και Figure 4 του paper.
